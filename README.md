@@ -3,7 +3,7 @@
 
 ## Haystack
 
-### `DocuSeeker.py` (Enterprise Document Search Engine)
+### `DocuSeeker.py` - Advanced Document Search Application with Haystack
 - **Elasticsearch Integration:** Manages and queries documents.
 - **Redis Caching:** Efficient data retrieval.
 - **Streamlit UI:** User-friendly search interface.
@@ -20,6 +20,18 @@
 - **Error Handling:** Robust user input validation and error management.
 ### Usage
 - **COVID-19 FAQ Bot:** Users can ask questions about COVID-19 and get instant answers.
+
+  ### `SimpleSearcher.py` - Document Search Application with Haystack
+- **Document Upload:** Upload multiple documents to a Haystack instance for indexing.
+- **Document Search:** Search for documents using a user-provided query.
+- **Error Handling:** Handles potential errors during document upload and search operations.
+- **User-Friendly Display:** Displays search results in a readable format.
+- **Streamlit Interface:** Utilizes Streamlit for a user-friendly web interface.
+### Usage
+- **Document Upload:** Users can upload documents for indexing by selecting files and clicking the "Upload Files" button. Uploaded documents are processed, and results (success or error) are displayed.
+- **Document Search:** Users can enter a search query in the text input field and click the "Search" button to retrieve relevant documents. Results are displayed with document IDs, content excerpts, and scores.
+- **Error Handling:** In case of errors during document upload or search, appropriate error messages are shown.
+- **Streamlit Interface:** The application provides a Streamlit-based web interface for easy interaction.
 
 
 ## Hugging face
